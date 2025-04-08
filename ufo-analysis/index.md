@@ -6,6 +6,7 @@ title: UFO Sightings Analysis
 <style>
   h1 {
     font-size: 2em; /* Adjust font size of h1 */
+    margin-top: 20px; /* Add space between the title and the top */
   }
   h2 {
     font-size: 1.8em; /* Adjust font size of h2 */
