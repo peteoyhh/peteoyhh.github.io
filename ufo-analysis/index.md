@@ -5,16 +5,16 @@ title: UFO Sightings Analysis
 
 <style>
   h1 {
-    font-size: 2.5em; /* Adjust font size of h1 */
+    font-size: 2em; /* Adjust font size of h1 */
   }
   h2 {
-    font-size: 2em; /* Adjust font size of h2 */
+    font-size: 1.8em; /* Adjust font size of h2 */
   }
   h3 {
     font-size: 1.5em; /* Adjust font size of h3 */
   }
   .section-title {
-    font-size: 1.8em; /* Adjust the font size for section titles */
+    font-size: 1.6em; /* Adjust the font size for section titles */
   }
 </style>
 
