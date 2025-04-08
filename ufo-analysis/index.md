@@ -26,6 +26,8 @@ This plot visualizes UFO sightings across the United States, aggregated by state
 The interactivity allows the user to focus on specific states by selecting them from the dropdown menu. Users can also adjust the timeline by using the year slider to observe trends and patterns of UFO sightings over time.
 
 ---
+<iframe src="Map.html" width="100%" height="600px" style="border:none;"></iframe>
+---
 
 ## Visualization 2: Time Series Line Plot
 
@@ -49,6 +51,8 @@ This plot shows the trend of UFO reports over time, grouped by two-year interval
 - The year range slider enables users to focus on specific periods. 
 - Hovering over data points displays the exact number of reports for that year group and state, providing further insights into the trends.
 
+---
+<iframe src="LineChart.html" width="100%" height="600px" style="border:none;"></iframe>
 ---
 
 ## Visualization 3: UFO Report Counts by Shape
@@ -75,13 +79,7 @@ This plot visualizes the number of UFO sightings reported by shape, grouped by y
 - Hovering over each bar provides additional insights by showing the exact count of UFO sightings for each shape and year group.
 
 ---
-
-
-## Embedded Plots
-
-Here is the interactive plot showing UFO sightings by state:
-
-<iframe src="ufo_analysis.html" width="100%" height="600px" style="border:none;"></iframe>
+<iframe src="BarChart.html" width="100%" height="600px" style="border:none;"></iframe>
 
 ---
 
