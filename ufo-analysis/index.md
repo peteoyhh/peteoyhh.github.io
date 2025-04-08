@@ -101,4 +101,4 @@ This plot visualizes the number of UFO sightings reported by shape, grouped by y
 ## Links
 
 - [The Data](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv)
-- [The Analysis](https://username.github.io/ufo-analysis/ufo_analysis.ipynb)
+- [The Analysis](Workbook.ipynb)
