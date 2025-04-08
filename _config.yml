@@ -1,9 +1,8 @@
 title               : UFO Analysis
 description         : A detailed analysis of UFO sightings using Altair and Vega-Lite.
 
-# baseurl 设置为 /ufo-analysis，表示页面托管在 https://your-username.github.io/ufo-analysis
 baseurl             : "/ufo-analysis"   
-repository          : "peteoyhh/peteoyhh.github.io"  # 仓库名称
+repository          : "peteoyhh/peteoyhh.github.io"  
 open_new_tab        : false
 
 ### Plugins ###
@@ -12,13 +11,13 @@ plugins:
   - jekyll-feed
 
 ### URL Structure ###
-permalink: /:title/   # 页面 URL 结构
+permalink: /:title/   
 
 ### Exclude from processing ###
 exclude:
   - README.md
   - "*.log"
-  - "*.ipynb"  # 确保不处理 ipynb 文件
+  - "*.ipynb"  
 
 ### Defaults for collections ###
 defaults:
