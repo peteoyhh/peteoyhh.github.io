@@ -40,13 +40,11 @@ This plot shows the trend of UFO reports over time for each state. Users can com
 The hovering effect with a red dot and tooltip enhances data comprehension by providing precise values upon inspection.
 
 ---
+### Embedded Plots:
+<iframe src="ufo_analysis.html" width="100%" height="600px" style="border:none;"></iframe>
+---
 
 ## Links
 
 - [The Data](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv)
-- [The Plots](ufo_analysis.html)
-
-### Embedded Plots:
-<iframe src="ufo_analysis.html" width="100%" height="600px" style="border:none;"></iframe>
-
 - [The Code](ufo_analysis.ipynb)
