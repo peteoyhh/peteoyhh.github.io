@@ -40,6 +40,7 @@ This plot visualizes UFO sightings across the United States, aggregated by state
 
 ### **Interactivity Explanation**
 The interactivity allows the user to focus on specific states by selecting them from the dropdown menu. Users can also adjust the timeline by using the year slider to observe trends and patterns of UFO sightings over time. When a state is selected, the nationwide map will only display sightings for that state, while the state map will zoom in on the selected state and show sightings specifically for that region.
+
 ---
 <iframe src="Map.html" width="100%" height="600px" style="border:none;"></iframe>
 ---
@@ -101,4 +102,4 @@ This plot visualizes the number of UFO sightings reported by shape, grouped by y
 ## Links
 
 - [The Data](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv)
-- [The Analysis](peteoyhh.github.io/ufo-analysis/Workbook.ipynb)
+- [The Analysis](Workbook.ipynb)
