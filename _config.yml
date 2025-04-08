@@ -1,8 +1,32 @@
-### How to use this document
-# 1. Fill in your info
-# 2. Re-excecute the build in the command line with: bundle exec jekyll serve
-# 3. Push to github
-# NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
+title               : UFO Analysis
+description         : A detailed analysis of UFO sightings using Altair and Vega-Lite.
+
+# baseurl 设置为 /ufo-analysis，表示页面托管在 https://your-username.github.io/ufo-analysis
+baseurl             : "/ufo-analysis"   
+repository          : "peteoyhh/peteoyhh.github.io"  # 仓库名称
+open_new_tab        : false
+
+### Plugins ###
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+### URL Structure ###
+permalink: /:title/   # 页面 URL 结构
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - "*.log"
+  - "*.ipynb"  # 确保不处理 ipynb 文件
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
 
 ### Site Settings ###
 title               : IS445 Jekyll Template 
@@ -13,13 +37,8 @@ baseurl             : ""   # Change to empty quotes if you are hosting your site
 repository          :                     # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
-
-### Plugins ###
-plugins:
-  - jekyll-archives
-  - jekyll-sitemap
-  - jekyll-paginate-v2
-  - mini_magick
+### URL Structure ###
+permalink: /blog/:title
 
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
 port: 4008
