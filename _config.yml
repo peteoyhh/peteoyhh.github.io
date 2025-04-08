@@ -1,8 +1,8 @@
 title               : UFO Analysis
 description         : A detailed analysis of UFO sightings using Altair and Vega-Lite.
 
-baseurl             : " "   
-repository          : "peteoyhh/peteoyhh.github.io"  
+baseurl             : "/ufo-analysis"   
+repository          : "peteoyhh/peteoyhh.github.io"   
 open_new_tab        : false
 
 ### Plugins ###
@@ -11,13 +11,14 @@ plugins:
   - jekyll-feed
 
 ### URL Structure ###
-permalink: /:title/   
+permalink: /:title/  
 
 ### Exclude from processing ###
 exclude:
   - README.md
   - "*.log"
   - "*.ipynb"  
+  - "python_notebooks/*"   
 
 ### Defaults for collections ###
 defaults:
@@ -28,16 +29,15 @@ defaults:
       comments: false
 
 ### Site Settings ###
-title               : IS445 Jekyll Template 
+title               : IS445 Jekyll  
 description         : >-
                       I am definitely not a corgi!
-baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
-#                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          :                     # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+baseurl             : ""   
+repository          : "peteoyhh/peteoyhh.github.io"  
+open_new_tab        : false                             
 
 ### URL Structure ###
-permalink: /blog/:title
+permalink: /blog/:title  
 
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
 port: 4008
@@ -49,35 +49,16 @@ nav_exclude:                                            # The following paths ar
   - pages/index.md
   - documentation/partials/**                           # For Documentation Only
 
-
 ### Author Info ###
 author:
   name              : A. P. Corgi
   image             : https://media.tenor.com/8RcIoWTKYR4AAAAe/scuze-corgi.png
-#  behance           : your_username
-# dribbble          : your_username
-  email             : username@domain.com
-#  facebook          : your_username
-  github            : jnaiman # JPN
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-#  linkedin          : your_username
-#  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-#  twitch            : your_username
-  twitter           : your_username
-#  vimeo             : your_username
-  youtube           : your_channel_name
-# keybase           : your_username
-
+  github            : peteoyhh  
+  twitter           : your_username  
+  youtube           : your_channel_name 
 
 ### Posts ###
 permalink: /blog/:title
-
 
 ### Collections ###
 collections:
@@ -87,11 +68,9 @@ collections:
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
-
 ### Disqus ###
 disqus:
   shortname: your-short-name-disqus                     # Your website Shortname on disqus
-
 
 ### Analytics ###
 analytics:
@@ -99,16 +78,13 @@ analytics:
   google:
     tracking_id: your-google-tracking-id
 
-
 ### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
 buymeacoffee:
   enabled: false
   username: your_username
   color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  message: "Thank you for visiting."                    
   description: "Support me on Buy me a coffee!"
-
 
 ### Defaults for collections ###
 defaults:
@@ -128,9 +104,7 @@ defaults:
     values:
       comments: false                                   # Set to true to enable disqus comments
 
-
 ### Exclude from processing ###
-## Add yours here if you have other stuff in your github.io page!!!**
 exclude:
   - README.md
   - README.md~
