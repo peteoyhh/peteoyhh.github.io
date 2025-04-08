@@ -44,4 +44,4 @@ The hovering effect with a red dot and tooltip enhances data comprehension by pr
 ## Links
 
 - [The Data](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv)
-- [The Analysis](ufo_analysis.ipynb)
+- [The Analysis](ufo_analysis.html)
