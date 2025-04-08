@@ -21,25 +21,25 @@ title: UFO Sightings Analysis
 
 # UFO Sightings Analysis
 
-## Visualization 1: Nationwide UFO Reports Map
+## **Visualization 1: Nationwide UFO Reports Map**
 
-### Description
+### **Description**
 This plot visualizes UFO sightings across the United States, aggregated by state. The map shows points for each UFO sighting, with users being able to filter the data by state and year. The first map shows sightings across the entire United States, while the second map zooms in on the selected state. The color encoding represents the frequency of sightings in different locations.
 
-### Design Choices
+### **Design Choices**
 - **Encoding:** The map uses geographic shapes to represent different states. Points are plotted based on the latitude and longitude of UFO sightings, with color indicating their number of occurrences in each state.
 - **Interactivity:** 
-  - A dropdown menu allows users to select specific states to focus on.
+  - A dropdown menu allows users to select specific states to focus on. 
   - A slider is provided to filter the data by year, enabling users to explore trends over time.
+  - The nationwide map (left) will only show reports for the nation, while the state map (right) will zoom into the selected state, showing the reports for that particular state.
 
-### Data Transformation
+### **Data Transformation**
 - State abbreviations were transformed into full state names for better clarity.
 - The dataset is filtered to focus on the continental United States, excluding Alaska and Hawaii.
 - The sightings are aggregated by year for better visualization and trends analysis.
 
-### Interactivity Explanation
-The interactivity allows the user to focus on specific states by selecting them from the dropdown menu. Users can also adjust the timeline by using the year slider to observe trends and patterns of UFO sightings over time.
-
+### **Interactivity Explanation**
+The interactivity allows the user to focus on specific states by selecting them from the dropdown menu. Users can also adjust the timeline by using the year slider to observe trends and patterns of UFO sightings over time. When a state is selected, the nationwide map will only display sightings for that state, while the state map will zoom in on the selected state and show sightings specifically for that region.
 ---
 <iframe src="Map.html" width="100%" height="600px" style="border:none;"></iframe>
 ---
