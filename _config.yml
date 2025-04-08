@@ -1,7 +1,7 @@
 title               : UFO Analysis
 description         : A detailed analysis of UFO sightings using Altair and Vega-Lite.
 
-baseurl             : "/ufo-analysis"   
+baseurl             : " "   
 repository          : "peteoyhh/peteoyhh.github.io"  
 open_new_tab        : false
 
