@@ -52,7 +52,7 @@ This plot shows the trend of UFO reports over time, grouped by two-year interval
 - Hovering over data points displays the exact number of reports for that year group and state, providing further insights into the trends.
 
 ---
-<iframe src="LineChart.html" width="100%" height="600px" style="border:none;"></iframe>
+<iframe src="Linechart.html" width="100%" height="600px" style="border:none;"></iframe>
 ---
 
 ## Visualization 3: UFO Report Counts by Shape
